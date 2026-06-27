@@ -1,0 +1,13 @@
+name: Git-branches
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+     disable:
+       runs-on: ubuntu-latest 
+
+       steps:
+         - name: talha
+            run: echo "disable workflow devops video"
